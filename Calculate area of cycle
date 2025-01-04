@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Ans:
+
+import java.util.Scanner;
+
+class Main {
+
+public static void main(String[] args) {
+
+Scanner scanner = new Scanner(System.in);
+
+// Your code here
+
+int n=scanner.nextInt();
+
+for(int i=0; i<n; i++)
+
+{
+
+double r=scanner.nextDouble();
+
+int area = (int) Math.floor(3.14*r*r);
+
+System.out.println(area);
+}
+}
+}
